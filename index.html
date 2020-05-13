@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="bitcoin-icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Bitcoin Converter</title>
+    <style>
+        h1{
+            font-family: 'Press Start 2P', cursive;
+        }
+
+        body{
+
+            margin-top: 80px; background: #333;color: #fff; background-image: url('bitcoin-matrix2.jpg') ; background-repeat: no repeat ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="display-3 text-center mb-4" style="color:	#FFD700;">
+                    Bitcoin Converter
+                </h1>
+            
+                <form>
+                    <div class="form-group">
+                        <input type="number" 
+                        id="bitcoinsInput"
+                        class="form-control form-control-lg" 
+                        placeholder="Enter ₿itcoins...">
+                    </div>
+                </form>
+                <div id="output">
+
+                    <div class="card bg-danger mb-2">
+                        <div class="card-block">
+                            <h4>Dirhams (Dhs):</h4>
+                            <div id="dirhamsOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-success mb-2">
+                        <div class="card-block">
+                            <h4>Kuwaiti Dinar (د.ك):</h4>
+                            <div id="kwdOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-warning mb-2">
+                        <div class="card-block">
+                            <h4>Bahrain Dinar (‎د.ب):</h4>
+                            <div id="bhdOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-dark mb-2">
+                        <div class="card-block">
+                            <h4>Oman Rial (ر.ع):</h4>
+                            <div id="omrOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-primary mb-2">
+                        <div class="card-block">
+                            <h4>Jordan Dinar (د.أ):</h4>
+                            <div id="jodOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-info mb-2">
+                        <div class="card-block">
+                            <h4>Euros (€):</h4>
+                            <div id="eurosOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-secondary mb-2">
+                        <div class="card-block">
+                            <h4>Dollars ($):</h4>
+                            <div id="dollarsOutput"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="card bg-dark mb-2">
+                        <div class="card-block">
+                            <h4>Pounds (₤):</h4>
+                            <div id="poundsOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-secondary mb-2">
+                        <div class="card-block">
+                            <h4>Yen (¥):</h4>
+                            <div id="yenOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-success mb-2">
+                        <div class="card-block">
+                            <h4>DZ (Tnaket):</h4>
+                            <div id="dzOutput"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    <script src="main.js"></script>
+</body>
+</html>
